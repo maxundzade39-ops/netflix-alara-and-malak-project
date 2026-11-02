@@ -5,10 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-background-image: url(./AZ-en-20261026-TRIFECTA-perspective_0423ef51-b545-437a-a261-6ebf74314e75_large.jpg);
+background-image: url(./Screenshot\ 2026-11-02\ 212752.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+  min-height: 96vh;
 }
 
 nav{
@@ -19,22 +20,53 @@ align-items: center;
 }
 img{
     width: 200px;
+animation: lo 3s linear 0s infinite normal forwards;
+ 
 }
+
 h2{
     font-size: 70px;
     color: white;
-    margin: 290px;
+    margin: 180px 0 0 0;
+    text-align: center;
 
 }
 button{
     background-color: red;
     color: white;
-    border-radius: 6px;
-    font-size: 15px;
+    border-radius: 7px; 
+    font-size: 36px;
+    border: none;
+   
+}
+
+input{
+        font-size: 27px;
 }
 .main{
     color: white;
-    text-align: center;
+    text-align: center; 
     margin-top: 200px;
+}
+.div{
+    position: relative; 
+    margin-top: -100px;
+}
 
+
+
+
+
+@keyframes lo {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
